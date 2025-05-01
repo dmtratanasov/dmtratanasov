@@ -60,7 +60,6 @@ I've completed several high-quality courses:
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dmtratanasov&show_icons=true&theme=radical" alt="GitHub stats" />
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=dmtratanasov&theme=radical" alt="GitHub streak" />
 </p>
 
 ---
