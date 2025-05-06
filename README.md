@@ -55,15 +55,6 @@ I've completed several high-quality courses:
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dmtratanasov&show_icons=true&theme=radical" alt="GitHub stats" />
-  <br />
-</p>
-
----
-
 ### 📫 Reach Out
 
 - 📧 datanasovd9@gmail.com  
