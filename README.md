@@ -22,8 +22,6 @@ I’m a passionate **Frontend Developer** with a strong focus on **React**, **Ne
 ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Next.js](https://img.shields.io/badge/-Next.js-black?style=flat-square&logo=next.js)
-![Redux Toolkit](https://img.shields.io/badge/-Redux-black?style=flat-square&logo=redux)
-![Angular](https://img.shields.io/badge/-Angular-red?style=flat-square&logo=angular)
 
 **Tools & APIs:**
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-black?style=flat-square&logo=tailwind-css)
