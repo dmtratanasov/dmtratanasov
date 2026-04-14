@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Dimitar Atanasov</h1>
-<h3 align="center"> Front-end Developer based in Lisbon, Portugal 🇵🇹</h3>
+<h3 align="center">Senior Frontend Developer (React & Next.js) based in Ljubljana, Slovenia 🇸🇮</h3>
 
 <p align="center">
   <a href="https://github.com/dmtratanasov"><img src="https://img.shields.io/github/followers/dmtratanasov?label=Follow&style=social"></a>
@@ -11,50 +11,56 @@
 
 ### 👨‍💻 About Me
 
-I’m a passionate **Frontend Developer** with a strong focus on **React**, **Next.js**, and **clean, scalable UI/UX**. With 5+ years of experience across startups and established tech companies, I’ve built platforms for **iGaming**, **eCommerce**, and **enterprise back offices** that now serve **250k+ users**.
+I’m a **Senior Frontend Developer** specializing in **React**, **Next.js**, and building **high-performance interactive web applications**.
+
+I helped build a full iGaming platform from scratch that now serves **250,000+ active users**, and I currently design and develop **original in-house games** as part of the Original Games team at Playlink (Superduper).
+
+My background includes full-stack development with **Angular & .NET**, mobile apps with **React Native & Flutter**, and mentoring developers while defining code quality and architecture standards.
 
 ---
 
 ### 🛠 Tech Stack
 
-**Languages & Frameworks:**
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
+**Core**
 ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Next.js](https://img.shields.io/badge/-Next.js-black?style=flat-square&logo=next.js)
+![Redux Toolkit](https://img.shields.io/badge/-Redux%20Toolkit-black?style=flat-square&logo=redux)
 
-**Tools & APIs:**
+**Styling & UI**
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-black?style=flat-square&logo=tailwind-css)
+![CSS](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)
+
+**Communication & Data**
+![REST API](https://img.shields.io/badge/-REST-black?style=flat-square)
+![WebSockets](https://img.shields.io/badge/-WebSockets-black?style=flat-square)
 ![Axios](https://img.shields.io/badge/-Axios-black?style=flat-square&logo=axios)
-![WebSockets](https://img.shields.io/badge/-WebSockets-black?style=flat-square&logo=websockets)
-![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+
+**Other Experience**
+Angular • .NET Core/.NET 5 • React Native • Flutter • Git
+
+---
+
+### 🔥 Professional Highlights
+
+- 🎰 Built and scaled a **casino & sportsbook platform** with Next.js from the ground up
+- 🧩 Designing rich, animated **game interfaces** for in-house iGaming titles
+- 🧠 Mentored developers and improved code quality across teams
+- ⚡ Performance optimization and scalable frontend architecture
+- 🔄 Real-time data handling with WebSockets and complex state management
 
 ---
 
 ### 🧠 Continuous Learning
 
-I've completed several high-quality courses:
-- **The Web Developer Bootcamp** by Colt Steele
-- **React – The Complete Guide** by Maximilian Schwarzmüller
-- **ASP.NET Core + Angular** by Neil Cummings
-
----
-
-### 🔥 Recent Experience
-
-- **Tech Wave Entertainment** — *Senior Frontend Developer*  
-  Built a modern iGaming platform from scratch using **Next.js**, serving 250,000+ active users.
-
-- **Shindiri Studio** — *Senior Frontend Developer*  
-  Built highly performant, responsive UIs with **React**.
-
-- **Entire Logic** — *Fullstack Developer*  
-  Developed Angular frontends and .NET APIs for seamless business applications.
+- The Web Developer Bootcamp — Colt Steele
+- React – The Complete Guide — Maximilian Schwarzmüller
+- ASP.NET Core + Angular — Neil Cummings
 
 ---
 
 ### 📫 Reach Out
 
-- 📧 datanasovd9@gmail.com  
-- 📝 [Medium Blog](https://medium.com/@dmtrata)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/dimitar-atanasov-81585b99/)
+- 📧 datanasovd9@gmail.com
+- 📝 https://medium.com/@dmtrata
+- 💼 https://linkedin.com/in/dimitar-atanasov-81585b99/
