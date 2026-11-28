@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title">
+  <title id="title">GitHub activity: 886 total contributions (Since Oct 2020), 519 past 12 months (Contributions), 140 best month (Dec 2025)</title>
+  <style>
+    .pulse { transform-box: fill-box; transform-origin: center; }
+    @media (prefers-reduced-motion: no-preference) {
+      .rise { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+      .draw { animation: draw 1.8s cubic-bezier(.65,0,.35,1) .35s both; }
+      .fade { animation: fade .9s ease-out 1.2s both; }
+      .pop { animation: fade .4s ease-out 2s both; }
+      .pulse { animation: pulse 2.4s ease-out 2.2s infinite both; }
+    }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
+    @keyframes draw { from { stroke-dashoffset: 1; } }
+    @keyframes fade { from { opacity: 0; } }
+    @keyframes pulse { from { transform: scale(.5); opacity: .9; } to { transform: scale(2.2); opacity: 0; } }
+  </style>
+  <defs>
+    <clipPath id="card"><rect width="720" height="320" rx="12" /></clipPath>
+    <radialGradient id="glow-purple" cx="100%" cy="0%" r="70%">
+      <stop offset="0" stop-color="#6D4AFF" stop-opacity=".28" />
+      <stop offset="1" stop-color="#6D4AFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-lime" cx="0%" cy="100%" r="60%">
+      <stop offset="0" stop-color="#CDF542" stop-opacity=".10" />
+      <stop offset="1" stop-color="#CDF542" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CDF542" stop-opacity=".30" />
+      <stop offset="1" stop-color="#CDF542" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".035" />
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="720" height="320" fill="#09090B" />
+    <rect width="720" height="320" fill="url(#grid)" />
+    <rect width="720" height="320" fill="url(#glow-purple)" />
+    <rect width="720" height="320" fill="url(#glow-lime)" />
+  </g>
+  <rect x=".5" y=".5" width="719" height="319" rx="11.5" fill="none" stroke="#27272A" />
+
+  <circle cx="40" cy="40" r="8" fill="#CDF542" fill-opacity=".22" />
+  <circle cx="40" cy="40" r="3.5" fill="#CDF542" />
+  <text x="56" y="44" fill="#D4D4D8" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="12" letter-spacing="3">GITHUB ACTIVITY</text>
+  <text x="684" y="44" text-anchor="end" fill="#71717A" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="2">INCL. PRIVATE REPOS</text>
+  
+  <g class="rise" style="animation-delay:0.1s">
+    <text x="36" y="122" fill="#FAFAFA" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="-1.5">886</text>
+    <text x="36" y="146" fill="#A1A1AA" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6">TOTAL CONTRIBUTIONS</text>
+    <text x="36" y="164" fill="#71717A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">Since Oct 2020</text>
+  </g><line x1="252" y1="84" x2="252" y2="166" stroke="#27272A" />
+  <g class="rise" style="animation-delay:0.2s">
+    <text x="276" y="122" fill="#FAFAFA" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="-1.5">519</text>
+    <text x="276" y="146" fill="#A1A1AA" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6">PAST 12 MONTHS</text>
+    <text x="276" y="164" fill="#71717A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">Contributions</text>
+  </g><line x1="468" y1="84" x2="468" y2="166" stroke="#27272A" />
+  <g class="rise" style="animation-delay:0.30000000000000004s">
+    <text x="492" y="122" fill="#FAFAFA" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="-1.5">140</text>
+    <text x="492" y="146" fill="#A1A1AA" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="11" letter-spacing="1.6">BEST MONTH</text>
+    <text x="492" y="164" fill="#71717A" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12">Dec 2025</text>
+  </g>
+
+  <text x="36" y="194" fill="#52525B" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6">CONTRIBUTIONS OVER TIME</text>
+  <line x1="62.6" y1="200" x2="62.6" y2="274" stroke="#27272A" stroke-dasharray="2 4" />
+  <text x="62.6" y="298" text-anchor="middle" fill="#52525B" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">2021</text>
+  <line x1="169.2" y1="200" x2="169.2" y2="274" stroke="#27272A" stroke-dasharray="2 4" />
+  <text x="169.2" y="298" text-anchor="middle" fill="#52525B" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">2022</text>
+  <line x1="275.7" y1="200" x2="275.7" y2="274" stroke="#27272A" stroke-dasharray="2 4" />
+  <text x="275.7" y="298" text-anchor="middle" fill="#52525B" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">2023</text>
+  <line x1="382.2" y1="200" x2="382.2" y2="274" stroke="#27272A" stroke-dasharray="2 4" />
+  <text x="382.2" y="298" text-anchor="middle" fill="#52525B" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">2024</text>
+  <line x1="488.7" y1="200" x2="488.7" y2="274" stroke="#27272A" stroke-dasharray="2 4" />
+  <text x="488.7" y="298" text-anchor="middle" fill="#52525B" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">2025</text>
+  <line x1="595.2" y1="200" x2="595.2" y2="274" stroke="#27272A" stroke-dasharray="2 4" />
+  <text x="595.2" y="298" text-anchor="middle" fill="#52525B" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">2026</text>
+  <line x1="36" y1="274" x2="684" y2="274" stroke="#27272A" />
+  <path class="fade" d="M36,270.5 C39,270.4 41.9,270.1 44.9,270.1 C47.8,270.1 50.8,270.1 53.8,270.1 C56.7,270.1 59.7,270.1 62.6,270.1 C65.6,270.1 68.5,270.1 71.5,270.1 C74.5,270.1 77.4,269.9 80.4,269.9 C83.3,269.9 86.3,269.9 89.3,269.9 C92.2,269.9 95.2,269.9 98.1,269.9 C101.1,269.8 104.1,269.8 107,269.8 C110,269.8 112.9,269.8 115.9,269.8 C118.8,269.8 121.8,269.8 124.8,269.8 C127.7,269.8 130.7,269.8 133.6,269.8 C136.6,269.8 139.6,269.8 142.5,269.8 C145.5,269.8 148.4,269.8 151.4,269.8 C154.4,269.8 157.3,269.8 160.3,269.8 C163.2,269.8 166.2,269.8 169.2,269.8 C172.1,269.8 175.1,269.8 178,269.8 C181,269.8 183.9,269.8 186.9,269.8 C189.9,269.8 192.8,269.8 195.8,269.8 C198.7,269.8 201.7,269.8 204.7,269.8 C207.6,269.8 210.6,269.8 213.5,269.8 C216.5,269.8 219.5,269.8 222.4,269.8 C225.4,269.8 228.3,269.8 231.3,269.8 C234.2,269.8 237.2,269.8 240.2,269.8 C243.1,269.8 246.1,269.8 249,269.8 C252,269.8 255,269.8 257.9,269.8 C260.9,269.8 263.8,269.8 266.8,269.8 C269.8,269.8 272.7,269.7 275.7,269.7 C278.6,269.7 281.6,269.7 284.5,269.7 C287.5,269.7 290.5,269.7 293.4,269.7 C296.4,269.7 299.3,269.7 302.3,269.7 C305.3,269.7 308.2,269.7 311.2,269.7 C314.1,269.7 317.1,269.7 320.1,269.7 C323,269.7 326,269.7 328.9,269.7 C331.9,269.7 334.8,268.2 337.8,268.2 C340.8,268.2 343.7,268.2 346.7,268.2 C349.6,268.2 352.6,268.2 355.6,268.2 C358.5,268.2 361.5,268.2 364.4,268.2 C367.4,268.2 370.4,268.2 373.3,268.2 C376.3,268.2 379.2,268.2 382.2,268.2 C385.2,268.2 388.1,268.2 391.1,268.2 C394,268.2 397,268.2 399.9,268.2 C402.9,268.2 405.9,268.2 408.8,268.2 C411.8,268.2 414.7,268.2 417.7,268.2 C420.7,268.2 423.6,268.2 426.6,268.2 C429.5,268.2 432.5,267.7 435.5,267.7 C438.4,267.7 441.4,267.7 444.3,267.7 C447.3,267.7 450.2,267.5 453.2,267.2 C456.2,267 459.1,265.4 462.1,265.2 C465,265 468,264.9 471,264.9 C473.9,264.8 476.9,264.7 479.8,264.7 C482.8,264.7 485.8,264.7 488.7,264.7 C491.7,264.7 494.6,264.7 497.6,264.6 C500.5,264.6 503.5,264.4 506.5,264 C509.4,263.7 512.4,262.3 515.3,261.6 C518.3,260.9 521.3,260.4 524.2,259.8 C527.2,259.2 530.1,258.3 533.1,257.9 C536.1,257.4 539,257.2 542,256.9 C544.9,256.6 547.9,256.5 550.8,256.2 C553.8,255.9 556.8,255.8 559.7,255.3 C562.7,254.7 565.6,249.6 568.6,247.9 C571.6,246.2 574.5,246 577.5,244.1 C580.4,242.3 583.4,235.1 586.4,233.4 C589.3,231.7 592.3,230.5 595.2,229.9 C598.2,229.4 601.2,229.4 604.1,228.9 C607.1,228.4 610,227.2 613,226.3 C615.9,225.5 618.9,224.3 621.9,223.7 C624.8,223 627.8,222.5 630.7,222.3 C633.7,222 636.7,222.1 639.6,221.8 C642.6,221.6 645.5,220.1 648.5,220.1 C651.5,220.1 654.4,220.1 657.4,220.1 C660.3,220.1 663.3,219.6 666.2,218.9 C669.2,218.2 672.2,214.8 675.1,212.7 C678.1,210.5 681,208.2 684,206 L684,274 L36,274 Z" fill="url(#area)" />
+  <path class="draw" d="M36,270.5 C39,270.4 41.9,270.1 44.9,270.1 C47.8,270.1 50.8,270.1 53.8,270.1 C56.7,270.1 59.7,270.1 62.6,270.1 C65.6,270.1 68.5,270.1 71.5,270.1 C74.5,270.1 77.4,269.9 80.4,269.9 C83.3,269.9 86.3,269.9 89.3,269.9 C92.2,269.9 95.2,269.9 98.1,269.9 C101.1,269.8 104.1,269.8 107,269.8 C110,269.8 112.9,269.8 115.9,269.8 C118.8,269.8 121.8,269.8 124.8,269.8 C127.7,269.8 130.7,269.8 133.6,269.8 C136.6,269.8 139.6,269.8 142.5,269.8 C145.5,269.8 148.4,269.8 151.4,269.8 C154.4,269.8 157.3,269.8 160.3,269.8 C163.2,269.8 166.2,269.8 169.2,269.8 C172.1,269.8 175.1,269.8 178,269.8 C181,269.8 183.9,269.8 186.9,269.8 C189.9,269.8 192.8,269.8 195.8,269.8 C198.7,269.8 201.7,269.8 204.7,269.8 C207.6,269.8 210.6,269.8 213.5,269.8 C216.5,269.8 219.5,269.8 222.4,269.8 C225.4,269.8 228.3,269.8 231.3,269.8 C234.2,269.8 237.2,269.8 240.2,269.8 C243.1,269.8 246.1,269.8 249,269.8 C252,269.8 255,269.8 257.9,269.8 C260.9,269.8 263.8,269.8 266.8,269.8 C269.8,269.8 272.7,269.7 275.7,269.7 C278.6,269.7 281.6,269.7 284.5,269.7 C287.5,269.7 290.5,269.7 293.4,269.7 C296.4,269.7 299.3,269.7 302.3,269.7 C305.3,269.7 308.2,269.7 311.2,269.7 C314.1,269.7 317.1,269.7 320.1,269.7 C323,269.7 326,269.7 328.9,269.7 C331.9,269.7 334.8,268.2 337.8,268.2 C340.8,268.2 343.7,268.2 346.7,268.2 C349.6,268.2 352.6,268.2 355.6,268.2 C358.5,268.2 361.5,268.2 364.4,268.2 C367.4,268.2 370.4,268.2 373.3,268.2 C376.3,268.2 379.2,268.2 382.2,268.2 C385.2,268.2 388.1,268.2 391.1,268.2 C394,268.2 397,268.2 399.9,268.2 C402.9,268.2 405.9,268.2 408.8,268.2 C411.8,268.2 414.7,268.2 417.7,268.2 C420.7,268.2 423.6,268.2 426.6,268.2 C429.5,268.2 432.5,267.7 435.5,267.7 C438.4,267.7 441.4,267.7 444.3,267.7 C447.3,267.7 450.2,267.5 453.2,267.2 C456.2,267 459.1,265.4 462.1,265.2 C465,265 468,264.9 471,264.9 C473.9,264.8 476.9,264.7 479.8,264.7 C482.8,264.7 485.8,264.7 488.7,264.7 C491.7,264.7 494.6,264.7 497.6,264.6 C500.5,264.6 503.5,264.4 506.5,264 C509.4,263.7 512.4,262.3 515.3,261.6 C518.3,260.9 521.3,260.4 524.2,259.8 C527.2,259.2 530.1,258.3 533.1,257.9 C536.1,257.4 539,257.2 542,256.9 C544.9,256.6 547.9,256.5 550.8,256.2 C553.8,255.9 556.8,255.8 559.7,255.3 C562.7,254.7 565.6,249.6 568.6,247.9 C571.6,246.2 574.5,246 577.5,244.1 C580.4,242.3 583.4,235.1 586.4,233.4 C589.3,231.7 592.3,230.5 595.2,229.9 C598.2,229.4 601.2,229.4 604.1,228.9 C607.1,228.4 610,227.2 613,226.3 C615.9,225.5 618.9,224.3 621.9,223.7 C624.8,223 627.8,222.5 630.7,222.3 C633.7,222 636.7,222.1 639.6,221.8 C642.6,221.6 645.5,220.1 648.5,220.1 C651.5,220.1 654.4,220.1 657.4,220.1 C660.3,220.1 663.3,219.6 666.2,218.9 C669.2,218.2 672.2,214.8 675.1,212.7 C678.1,210.5 681,208.2 684,206" pathLength="1" stroke-dasharray="1" fill="none" stroke="#CDF542" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <g class="pop">
+    <circle class="pulse" cx="684" cy="206" r="5" fill="#CDF542" fill-opacity=".35" />
+    <circle cx="684" cy="206" r="4.5" fill="#CDF542" stroke="#09090B" stroke-width="2" />
+  </g>
+  <text x="684" y="298" text-anchor="end" fill="#CDF542" font-family="'JetBrains Mono', 'SF Mono', ui-monospace, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">NOW</text>
+</svg>
